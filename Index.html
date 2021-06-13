@@ -5,38 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School website</title>
     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
- <nav>
-    <div class="navbar header">
-        <button class="button toggle" >
- <span class="icon-bar"></span>    
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
+     <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle"   data-toggle="collapse" data-target="#myNavbar">
+         <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="">St.Josephs College</a>
+    </div>
+        
+    <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav">
+    <li class="links"><a href="#campus_life">Campus life</a></li>
+         <li class="links"><a href="#achievements">Achievements</a></li>
+         <li class="links"><a href="#what's_new">What's New</a></li>
+         <li class="links"><a href="#writing">Facilities</a></li>
+         <li class="links"><a href="#contact">Contact</a></li>
+    </ul> 
+        </div>
+    </nav>
      
-<a class="navbar-brand" href="#">St.Josephs College</a>  
-     
-</div>
- 
-<div class="collapse navbar-collapse" id="mynavbar">
- <ul class="nav navbar-nav">
-     <li><a href="#campus_life">Campus life</a></li>  
-     <li><a href="#achievements">Achievements</a></li>  
-     <li><a href="#campus_life">What's New</a></li>  
-     <li><a href="#campus_life">Campus life</a></li>  
-     <li><a href="#campus_life">Campus life</a></li>  
-</ul>    
-</div>
 
-
-</nav>    
- 
-<div class="announcment">
-<marquee id="marquee-style"  onmouseover="this.stop();" onmouseout="this.start();">Feel free to ask your queries</marquee> 
+<div class="announcment" style="background-color: black">
+<marquee id="marquee-style"  onmouseover="this.stop();" onmouseout="this.start();" style="background-color: aliceblue  font-weight:bold;">Feel free to ask your queries</marquee> 
     </div> 
-  <iframe width="853" height="480" src="https://www.youtube.com/embed/Uqq09cXJFfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<img src="SJC.jpg">
+  <div class="container" >
+ <section id="campus_life">
+  <div class="page-header" id="campus-life">
+    <h1 class="text-capitalize"><kbd>Campus-Life</kbd></h1> 
+      
+      <div class="row">
+          <div class="travel_MainDiv">
+      <img class="img-responsive" src="Church.jpg">
+            <h4 class="text-capitalize">School Church</h4>
+              <hr>
+            <h5 class="text-success text-left text-capitalize">Was estabilished in 1884</h5>
+              <p class="text-muted text-left">Write something about the mentioned place</p>
+           </div>
+          
+          <div class="travel_mainDiv">
+         <img class="img-responsive" src="School%20library.jpg">
+    <h4 class="text-capitalize"><kbd>school_library</kbd></h4>
+        <hr>
+    <h5 class="text-success text-left text-capitalise">Was build in 1884</h5>
+              <p class="text-muted text-left">Write something about the mentioned place</p>
+          </div>
+          
+    <div class="travel_mainDiv">
+      <img class="img-responsive" src="School%20auditorium.jpg"><h4 class="text-capitalize"><kbd>school_auditorium</kbd></h4>  
+        <hr>
+        <h5 class="text-success text-left text-capitalize">Was build in 1884</h5>
+          </div>
+      </div>
+    </div>
+     
+</section>   
+
+<section id="Achievements">
+    <div class="page-header" id="school_achievements"><h5 class="text-capitalize">school-achievements</h5></div>
+    <div  class="bg-primary movie_head" data-toggle="collapse" data-target="#Achievements">
+         
+         <span class="glyphicon glyphicon-film"></span>Interschool debate on Environment Pollution<i class="fa fa-sort-desc"></i>
+               
+    </div>
+    </section>
+      </div>
 </body>
 </html>
