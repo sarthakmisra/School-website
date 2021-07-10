@@ -41,3 +41,14 @@ body {
 .movie_text span {
     color:#d45f24;
 }
+.Whatsnew_li {
+    margin-top:13px;
+}
+.Whatsnew_li img
+{
+    border-radius:25px;
+}
+.Whatsnew_li p 
+{
+    margin-top:10px;
+}
